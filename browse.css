@@ -1,0 +1,120 @@
+/* ===== BROWSE PAGE ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #1DB954;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a,
+.login-link {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.login-link:hover {
+    color: #1DB954;
+}
+
+/* Browse Heading */
+.browse-heading {
+    padding: 35px 5% 15px;
+}
+
+.browse-heading h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+/* Genre Cards */
+.genre-grid {
+    padding: 20px 5% 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.genre-card {
+    flex: 1 1 250px;
+    min-height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.genre-card:hover {
+    transform: scale(1.04);
+}
+
+/* Different Card Colors */
+.pop {
+    background: linear-gradient(135deg, #e91e63, #9c1450);
+}
+
+.hiphop {
+    background: linear-gradient(135deg, #673ab7, #311b92);
+}
+
+.chill {
+    background: linear-gradient(135deg, #009688, #004d40);
+}
+
+.workout {
+    background: linear-gradient(135deg, #ff5722, #bf360c);
+}
+
+.focus {
+    background: linear-gradient(135deg, #2196f3, #0d47a1);
+}
+
+.party {
+    background: linear-gradient(135deg, #ff9800, #e65100);
+}
+
+/* Footer */
+footer {
+   background-color: #000;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
